@@ -1,4 +1,4 @@
-package software.ulpgc.kata;
+package software.ulpgc.kata.model;
 
 public record Title(String id, TitleType titleType, String primaryTitle) {
     public enum TitleType {
